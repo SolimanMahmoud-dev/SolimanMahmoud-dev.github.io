@@ -70,6 +70,10 @@ nav {
     animation: pulse 4s ease-in-out infinite;
 }
 
+.tag-divider {
+    width: 100%;
+}
+
 @keyframes pulse {
 
     0%,
@@ -523,6 +527,51 @@ section {
     color: #0a0a0a;
 }
 
+.skills-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* عنوان الجروب */
+.skills-group-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.skills-group-title::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(45deg, #00ff87, #60efff);
+    display: block;
+    margin-top: 8px;
+}
+
+/* تعديل شكل skill عشان يبقى أخف */
+.skills-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+}
+
+.skill {
+    padding: 18px 15px;
+}
+
+.skill i {
+    font-size: 32px;
+    color: #00ff87;
+    margin-bottom: 8px;
+}
+
+.skill span {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
 /* Add these media queries at the end of your master.css file */
 
 /* Tablets and smaller laptops (max-width: 1024px) */
@@ -789,6 +838,10 @@ section {
     }
 
     .timeline-title {
+        font-size: 18px;
+    }
+
+    .skills-group-title {
         font-size: 18px;
     }
 

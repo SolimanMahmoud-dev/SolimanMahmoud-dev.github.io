@@ -18,7 +18,7 @@
         </div>
         <ul class="nav-menu">
             <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a id="projects-link" href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -53,16 +53,35 @@
 
         <div class="projects-wrapper">
             <div class="project">
-                <img src="assets/ChatApp.png" alt="Chat App" class="project-img">
+                <img src="assets/TicTacToe.png" alt="TicTacToe" class="project-img">
                 <div class="project-body">
-                    <h3 class="project-title">Chat App</h3>
-                    <p class="project-desc">Secure messaging platform with Firebase Authentication and real-time updates</p>
+                    <h3 class="project-title">TicTacToe</h3>
+                    <p class="project-desc">Two-player strategy game</p>
                     <div class="project-tags">
-                        <span class="tag">Firebase</span>
-                        <span class="tag">Real-time</span>
-                        <span class="tag">Auth</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">XML</span>
+                        <div class="tag-divider"></div>
+                        <span class="tag">Game</span>
+                        <span class="tag">Regex pattern</span>
+                        <span class="tag">Dialog</span>
                     </div>
-                    <a href="https://github.com/SolimanMahm/Complete-Android/tree/main/ChatApp" class="project-link">View Project →</a>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="assets/Stopwatch.png" alt="Stopwatch" class="project-img">
+                <div class="project-body">
+                    <h3 class="project-title">Stopwatch</h3>
+                    <p class="project-desc">Precision timer with threading</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">XML</span>
+                        <div class="tag-divider"></div>
+                        <span class="tag">Threading</span>
+                        <span class="tag">Animations</span>
+                    </div>
+                    <a href="https://github.com/SolimanMahm/Android-Intern/tree/main/Stopwatch" class="project-link">View Project →</a>
                 </div>
             </div>
 
@@ -72,6 +91,9 @@
                     <h3 class="project-title">ToDo App</h3>
                     <p class="project-desc">Task manager with SQLite, custom DatePicker, and foreground services</p>
                     <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">XML</span>
+                        <div class="tag-divider"></div>
                         <span class="tag">Handler</span>
                         <span class="tag">ViewPager</span>
                         <span class="tag">SharedPreferences</span>
@@ -84,31 +106,22 @@
             </div>
 
             <div class="project">
-                <img src="assets/NewsApp.png" alt="News" class="project-img">
+                <img src="assets/ChatApp.png" alt="Chat App" class="project-img">
                 <div class="project-body">
-                    <h3 class="project-title">News Cloud</h3>
-                    <p class="project-desc">News aggregator with Material Design</p>
+                    <h3 class="project-title">Chat App</h3>
+                    <p class="project-desc">Secure messaging platform with Firebase Authentication and real-time updates</p>
                     <div class="project-tags">
-                        <span class="tag">Material Design</span>
-                        <span class="tag">Retrofit</span>
-                        <span class="tag">Glide</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">XML</span>
+                        <div class="tag-divider"></div>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Real-time</span>
+                        <span class="tag">Auth</span>
                     </div>
-                    <a href="https://github.com/SolimanMahm/Complete-Android/tree/main/NewsApp" class="project-link">View Project →</a>
+                    <a href="https://github.com/SolimanMahm/Complete-Android/tree/main/ChatApp" class="project-link">View Project →</a>
                 </div>
             </div>
 
-            <div class="project">
-                <img src="assets/Stopwatch.png" alt="Stopwatch" class="project-img">
-                <div class="project-body">
-                    <h3 class="project-title">Stopwatch</h3>
-                    <p class="project-desc">Precision timer with threading</p>
-                    <div class="project-tags">
-                        <span class="tag">Threading</span>
-                        <span class="tag">Animations</span>
-                    </div>
-                    <a href="https://github.com/SolimanMahm/Android-Intern/tree/main/Stopwatch" class="project-link">View Project →</a>
-                </div>
-            </div>
         </div>
 
         <div class="view-more">
@@ -124,11 +137,67 @@
 
         <div class="projects-wrapper">
             <div class="project">
+                <img src="assets/TicTacToe.png" alt="TicTacToe" class="project-img">
+                <div class="project-body">
+                    <h3 class="project-title">TicTacToe</h3>
+                    <p class="project-desc">Two-player strategy game</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">XML</span>
+                        <div class="tag-divider"></div>
+                        <span class="tag">Game</span>
+                        <span class="tag">Regex pattern</span>
+                        <span class="tag">Dialog</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="assets/Stopwatch.png" alt="Stopwatch" class="project-img">
+                <div class="project-body">
+                    <h3 class="project-title">Stopwatch</h3>
+                    <p class="project-desc">Precision timer with threading</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">XML</span>
+                        <div class="tag-divider"></div>
+                        <span class="tag">Threading</span>
+                        <span class="tag">Animations</span>
+                    </div>
+                    <a href="https://github.com/SolimanMahm/Android-Intern/tree/main/Stopwatch" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="assets/ToDoApp.png" alt="ToDo App" class="project-img">
+                <div class="project-body">
+                    <h3 class="project-title">ToDo App</h3>
+                    <p class="project-desc">Task manager with SQLite, custom DatePicker, and foreground services</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">XML</span>
+                        <div class="tag-divider"></div>
+                        <span class="tag">Handler</span>
+                        <span class="tag">ViewPager</span>
+                        <span class="tag">SharedPreferences</span>
+                        <span class="tag">Fragment</span>
+                        <span class="tag">SQLite</span>
+                        <span class="tag">Notifications</span>
+                    </div>
+                    <a href="https://github.com/SolimanMahm/Android-Intern/tree/main/ToDoApp" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project">
                 <img src="assets/ChatApp.png" alt="Chat App" class="project-img">
                 <div class="project-body">
                     <h3 class="project-title">Chat App</h3>
                     <p class="project-desc">Secure messaging platform with Firebase Authentication and real-time updates</p>
                     <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">XML</span>
+                        <div class="tag-divider"></div>
                         <span class="tag">Firebase</span>
                         <span class="tag">Real-time</span>
                         <span class="tag">Auth</span>
@@ -143,6 +212,9 @@
                     <h3 class="project-title">Weather App</h3>
                     <p class="project-desc">Weather forecast with Retrofit API</p>
                     <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">XML</span>
+                        <div class="tag-divider"></div>
                         <span class="tag">Retrofit</span>
                         <span class="tag">UX</span>
                     </div>
@@ -156,55 +228,14 @@
                     <h3 class="project-title">News Cloud</h3>
                     <p class="project-desc">News aggregator with Material Design</p>
                     <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">XML</span>
+                        <div class="tag-divider"></div>
                         <span class="tag">Material Design</span>
                         <span class="tag">Retrofit</span>
                         <span class="tag">Glide</span>
                     </div>
                     <a href="https://github.com/SolimanMahm/Complete-Android/tree/main/NewsApp" class="project-link">View Project →</a>
-                </div>
-            </div>
-
-            <div class="project">
-                <img src="assets/ToDoApp.png" alt="ToDo App" class="project-img">
-                <div class="project-body">
-                    <h3 class="project-title">ToDo App</h3>
-                    <p class="project-desc">Task manager with SQLite, custom DatePicker, and foreground services</p>
-                    <div class="project-tags">
-                        <span class="tag">Handler</span>
-                        <span class="tag">ViewPager</span>
-                        <span class="tag">SharedPreferences</span>
-                        <span class="tag">Fragment</span>
-                        <span class="tag">SQLite</span>
-                        <span class="tag">Notifications</span>
-                    </div>
-                    <a href="https://github.com/SolimanMahm/Android-Intern/tree/main/ToDoApp" class="project-link">View Project →</a>
-                </div>
-            </div>
-
-            <div class="project">
-                <img src="assets/Stopwatch.png" alt="Stopwatch" class="project-img">
-                <div class="project-body">
-                    <h3 class="project-title">Stopwatch</h3>
-                    <p class="project-desc">Precision timer with threading</p>
-                    <div class="project-tags">
-                        <span class="tag">Threading</span>
-                        <span class="tag">Animations</span>
-                    </div>
-                    <a href="https://github.com/SolimanMahm/Android-Intern/tree/main/Stopwatch" class="project-link">View Project →</a>
-                </div>
-            </div>
-
-            <div class="project">
-                <img src="assets/TicTacToe.png" alt="TicTacToe" class="project-img">
-                <div class="project-body">
-                    <h3 class="project-title">TicTacToe</h3>
-                    <p class="project-desc">Two-player strategy game</p>
-                    <div class="project-tags">
-                        <span class="tag">Game</span>
-                        <span class="tag">Regex pattern</span>
-                        <span class="tag">Dialog</span>
-                    </div>
-                    <a href="#" class="project-link">View Project →</a>
                 </div>
             </div>
         </div>
@@ -224,8 +255,8 @@
             <div class="timeline-item">
                 <div class="timeline-content">
                     <h3 class="timeline-title">Backend Django Developer</h3>
-                    <div class="timeline-company">Military Service</div>
-                    <div class="timeline-date">Mar 2025 - Present</div>
+                    <div class="timeline-company">Military Intelligence Authority</div>
+                    <div class="timeline-date">Mar 2025 - Mar 2026</div>
                     <p class="timeline-desc">Developed web-based systems for equipment management and fleet tracking with asset registration, report generation, and operational efficiency improvements.</p>
                 </div>
                 <div class="timeline-dot"></div>
@@ -247,7 +278,7 @@
                 <div class="timeline-content">
                     <h3 class="timeline-title">Android Developer</h3>
                     <div class="timeline-company">Freelancer</div>
-                    <div class="timeline-date">2023 - Present</div>
+                    <div class="timeline-date">Feb 2023 - Present</div>
                     <p class="timeline-desc">Developing mobile applications using Java and XML with focus on Material Design and modern development practices.</p>
                 </div>
                 <div class="timeline-dot"></div>
@@ -260,7 +291,7 @@
                 <div class="timeline-content">
                     <h3 class="timeline-title">Bachelor of Computer Science</h3>
                     <div class="timeline-company">Benha University - BFCAI</div>
-                    <div class="timeline-date">2020 - 2024</div>
+                    <div class="timeline-date">Oct 2020 - Jul 2024</div>
                     <p class="timeline-desc">Graduated with Very Good grade (3.60 GPA). Excellent graduation project. Specialized in Computer Science and AI.</p>
                 </div>
             </div>
@@ -272,93 +303,91 @@
             <span>EXPERTISE</span>
             <h2>Skills</h2>
         </div>
-        <div class="skills-grid">
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-brands fa-java"></i></div>
-                <div class="skill-name">Java</div>
+
+        <div class="skills-groups">
+
+            <!-- Programming -->
+            <div class="skills-group">
+                <h3 class="skills-group-title">Programming Languages</h3>
+                <div class="skills-grid">
+                    <div class="skill"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                    <div class="skill"><i class="fa-brands fa-android"></i><span>Kotlin</span></div>
+                    <div class="skill"><i class="fa-solid fa-c"></i><span>C</span></div>
+                    <div class="skill"><i class="fa-solid fa-code"></i><span>C++</span></div>
+                    <div class="skill"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                    <div class="skill"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                </div>
             </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-c"></i></div>
-                <div class="skill-name">C</div>
+
+            <!-- Concepts -->
+            <div class="skills-group">
+                <h3 class="skills-group-title">Programming & Computer Science</h3>
+                <div class="skills-grid">
+                    <div class="skill"><i class="fa-solid fa-cubes"></i><span>OOP</span></div>
+                    <div class="skill"><i class="fa-solid fa-code-branch"></i><span>Data Structures</span></div>
+                    <div class="skill"><i class="fa-solid fa-puzzle-piece"></i><span>Algorithms</span></div>
+                    <div class="skill"><i class="fa-solid fa-brain"></i><span>Problem Solving</span></div>
+                </div>
             </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
-                <div class="skill-name">Python</div>
+
+            <!-- Mobile -->
+            <div class="skills-group">
+                <h3 class="skills-group-title">Mobile Development</h3>
+                <div class="skills-grid">
+                    <div class="skill"><i class="fa-brands fa-android"></i><span>Android</span></div>
+                </div>
             </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-brands fa-android"></i></div>
-                <div class="skill-name">Kotlin</div>
+
+            <!-- Web -->
+            <div class="skills-group">
+                <h3 class="skills-group-title">Web Development</h3>
+                <div class="skills-grid">
+                    <div class="skill"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                    <div class="skill"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+                    <div class="skill"><i class="fa-brands fa-python"></i><span>Django</span></div>
+                </div>
             </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
-                <div class="skill-name">C++</div>
+
+            <!-- Databases -->
+            <div class="skills-group">
+                <h3 class="skills-group-title">Databases & Storage</h3>
+                <div class="skills-grid">
+                    <div class="skill"><i class="fa-solid fa-fire"></i><span>Firebase</span></div>
+                    <div class="skill"><i class="fa-solid fa-database"></i><span>Storage</span></div>
+                </div>
             </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-cubes"></i></div>
-                <div class="skill-name">OOP</div>
+            
+            <!-- APIs -->
+            <div class="skills-group">
+                <h3 class="skills-group-title">APIs & Data Handling</h3>
+                <div class="skills-grid">
+                    <div class="skill"><i class="fa-solid fa-network-wired"></i><span>JSON & API</span></div>
+                    <div class="skill"><i class="fa-solid fa-filter"></i><span>Data Cleaning</span></div>
+                </div>
             </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-brands fa-android"></i></div>
-                <div class="skill-name">Android</div>
+            
+            <!-- Version Control -->
+            <div class="skills-group">
+                <h3 class="skills-group-title">Version Control & Collaboration</h3>
+                <div class="skills-grid">
+                    <div class="skill"><i class="fa-brands fa-git-alt"></i><span>Git & GitHub</span></div>
+                    <div class="skill"><i class="fa-solid fa-users"></i><span>Team Collaboration</span></div>
+                    <div class="skill"><i class="fa-solid fa-code-branch"></i><span>Branching & Merging</span></div>
+                    <div class="skill"><i class="fa-solid fa-sync-alt"></i><span>Continuous Integration</span></div>
+                </div>
             </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
-                <div class="skill-name">Storage</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
-                <div class="skill-name">HTML</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-code-branch"></i></div>
-                <div class="skill-name">Data Structures</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
-                <div class="skill-name">Django</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-fire"></i></div>
-                <div class="skill-name">Firebase</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
-                <div class="skill-name">CSS</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
-                <div class="skill-name">Algorithms</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
-                <div class="skill-name">Git & GitHub</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
-                <div class="skill-name">Services</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
-                <div class="skill-name">JavaScript</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
-                <div class="skill-name">Problem Solving</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-network-wired"></i></div>
-                <div class="skill-name">JSON & API</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-broom"></i></div>
-                <div class="skill-name">Clean Code</div>
-            </div>
-            <div class="skill">
-                <div class="skill-icon"><i class="fa-solid fa-filter"></i></div>
-                <div class="skill-name">Data Cleaning</div>
+            
+            <!-- Software Engineering -->
+            <div class="skills-group">
+                <h3 class="skills-group-title">Software Engineering Practices</h3>
+                <div class="skills-grid">
+                    <div class="skill"><i class="fa-solid fa-broom"></i><span>Clean Code</span></div>
+                    <div class="skill"><i class="fa-solid fa-cogs"></i><span>Service</span></div>
+                </div>
             </div>
         </div>
     </section>
+
 
     <section id="contact">
         <div class="section-title">

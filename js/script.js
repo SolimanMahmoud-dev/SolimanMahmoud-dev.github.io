@@ -7,12 +7,14 @@
 
 
 function showAll() {
+    document.getElementById('projects-link').href = '#all-projects';
     document.getElementById('projects').style.display = 'none';
     document.getElementById('all-projects').style.display = 'block';
     document.getElementById('all-projects').scrollIntoView({ behavior: 'smooth' });
 }
 
 function hideAll() {
+    document.getElementById('projects-link').href = '#projects';
     document.getElementById('all-projects').style.display = 'none';
     document.getElementById('projects').style.display = 'block';
     document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
